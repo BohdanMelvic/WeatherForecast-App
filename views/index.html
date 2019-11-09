@@ -1,0 +1,275 @@
+<!doctype html>
+<html class="no-js" lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Weather App</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" type="image/png" href="./images/favicon.png">
+        <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i,700,700i" rel="stylesheet">
+        <link rel="stylesheet" href="./css/swiper.min.css">
+        <link rel="stylesheet" href="./css/animate.css">
+        <link rel="stylesheet" href="./css/iconfont.css">
+        <link rel="stylesheet" href="./css/font-awesome.min.css">
+        <link rel="stylesheet" href="./css/bootstrap.min.css">
+        <link rel="stylesheet" href="./css/magnific-popup.css">
+        <link rel="stylesheet" href="./css/bootsnav.css">
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./css/responsive.css" />
+        <script src="./js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    </head>
+
+    <body data-spy="scroll" data-target=".navbar-collapse">
+
+        <!-- Preloader -->
+        <div id="loading">
+            <div id="loading-center">
+                <div id="loading-center-absolute">
+                    <div class="object" id="object_one"></div>
+                    <div class="object" id="object_two"></div>
+                    <div class="object" id="object_three"></div>
+                    <div class="object" id="object_four"></div>
+                </div>
+            </div>
+        </div><!--End off Preloader -->
+
+
+        <div class="culmn">
+            <!--Home page style-->
+
+
+            <nav class="navbar navbar-default bootsnav navbar-fixed white no-background">
+                <div class="container">  
+
+                    <!-- Start Atribute Navigation -->
+                    <div class="attr-nav">
+                        <ul>
+                            <li><a href="https://www.linkedin.com/in/bohdan-melvic/"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a href="https://github.com/BohdanMelvic"><i class="fa fa-github"></i></a></li>
+                        </ul>
+                    </div>        
+                    <!-- End Atribute Navigation -->
+
+
+                    <!-- Start Header Navigation -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <a class="navbar-brand" href="#home">
+                            <span class="logoSpan"> <img src="./images/logo.png" class="sunLogo">Weather Forecast</span>
+                        </a>
+
+                    </div>
+                    <!-- End Header Navigation -->
+
+                    <!-- navbar menu -->
+                    <div class="collapse navbar-collapse" id="navbar-menu">
+                        <ul class="nav navbar-nav navbar-center">
+                            <li><a href="#GetForecast">Get Forecast</a></li>                    
+                            <li><a href="#reviews">About me</a></li>
+                        </ul>
+                    </div><!-- /.navbar-collapse -->
+                </div>   
+            </nav>
+
+            <!--Home Sections-->
+
+            <section id="home" class="home">
+                <div class="container">
+                    <div class="row">
+                        <div class="main_home">
+                            <div class="col-md-6">
+                                <div class="home_text">
+                                    <h1 class="text-white">Get current weather in any city of the world </h1>
+                                </div>
+
+                                <div class="home_btns m-top-40">
+                                    <a href="#screen_area" class="btn btn-danger m-top-20">Get Forecast</a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="phone_one phone_attr1 text-center sm-m-top-50">
+                                    <div class="attr_deg">14&deg;</div>
+                                    <div class="attr_rio text-uppercase">Rio</div>
+                                    <div class="attr_sun text-uppercase text-white">Kyiv</div>
+                                    <div class="attr_lon text-uppercase text-white">London</div>
+                                    <img src="./images/phone01.png" alt="" />
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="scrooldown">
+                            <a href="#footer"><i class="fa fa-chevron-down"></i></a>
+                        </div>
+
+                    </div><!--End off row-->
+                </div><!--End off container -->
+            </section> <!--End off Home Sections-->
+
+
+
+
+            <!--GetForecast section-->
+
+            <section id="screen_area" class="screen_area">
+                <div class="container">
+                    <div class="row">
+                        <div class="main_screen">
+                           
+                            <div id="GetForecast" class="screen03 roomy-50 m-top-50">
+                                <div class="col-md-6">
+                                    <div class="screen03_img text-center">
+                                        <div class="attr_rainy2 text-white">Sunny</div>
+                                        <div class="attr_deg4 text-white">31 &deg;</div>
+                                        <img src="./images/screen02.png" alt="" />
+                                        <h1 class="rainy">Sunny</h1>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="screen03_content m-top-10">
+                                        <div class="screen03_content_img ">
+                                            <img src="./images/cloud1.png" alt="" />
+                                        </div>
+                                        
+                                        <p class="m-top-40 textInfo">Please, enter the city name, where you want to know the weather forecast for today. Also, you can get the weather forecast for
+                                            your current position if you allow browser to get your location.</p>
+
+                                        <div class="main-content m-top-40">  
+                                            <form class="weatherForm m-top-40">
+                                                <input type="text" placeholder="Location" class="locationInput">
+                                                <button type="submit" class="btn-info">Search</button>
+                                                <button type="button" id="sendLocation" class="btn-success">My Current Location</button>
+                                            </form>
+                                            <div id="massage1" class="m-top-40"></div>
+                                            <div id="massage2" class="m-top-20"></div>
+                                        </div>
+                                       
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div><!--End off row-->
+                </div><!--End off container-->
+            </section><!--End off GetForecast Area Section -->
+
+
+
+            <!--AboutMe Section-->
+            <section id="reviews" class="reviews m-top-100">
+                <div class="container">
+                    <div class="row">
+                        <div class="main_reviews">
+                            <div class="col-md-8 col-md-offset-2 col-sm-12">
+                                <div class="head_title text-center">
+                                    <h2>About Me</h2>
+                                </div>
+                            </div>
+
+                            <div class="reviews_content">
+                                <div class="col-md-6">
+                                    <div class="reviews_item m-top-40" id="myPhotoDiv" >
+                                            <div class="reviews_item_icon pull-left"></div>
+                                        <img class="myPhoto" src="./images/me.jpg" alt="">
+                                    </div>
+                                </div><!-- End off col-md-6 -->
+
+                                <div class="col-md-6">
+                                    <div class="reviews_item m-top-40">
+                                        <div class="reviews_item_icon pull-left">“</div>
+                                        <h3>Hi! <br>I wanna represent my first full project, which helped me to improve my skills and expand my understanding of Front-End Developing. I hope you enjoy my small App.
+                                            <br> <br> I used here different technologies such as: <br> <br>
+                                                    - Bootstrap, JavaScript for Front-End side;<br>
+                                                    - Node.js - for Back-End side;<br>
+                                                    - Dark Sky API;<br>
+                                                    - Mapbox API;<br><br>
+                                                    If you have any recommendations or advice to help me become better I'll be thankful to you. Please, contact me any time!
+                                        </h3>
+                                        <h5 class="m-top-40">Bohdan Melnyk</h5>
+                                        <div class="reviews_item_icon1 pull-right text-right">“</div>
+                                    </div>
+                                </div><!-- End off col-md-6 -->
+
+                            </div>
+                        </div><!-- End off Main AboutMe -->
+                    </div><!-- End off row -->
+                </div><!-- End off container -->
+            </section><!-- End off AboutMe Section-->
+
+            <!-- scroll up-->
+            <div class="scrollup">
+                <a href="#"><i class="fa fa-chevron-up"></i></a>
+            </div><!-- End off scroll up -->
+            
+            
+            <footer id="footer" class="footer bg-black  m-top-100">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <nav class="navbar navbar-default bootsnav footer-menu no-background">
+                                <div class="container">  
+
+                                    <!-- Start Atribute Navigation -->
+                                    <div class="attr-nav">
+                                        <ul>
+                                            <li><a href="https://www.linkedin.com/in/bohdan-melvic/"><i class="fa fa-linkedin"></i></a></li>
+                                            <li><a href="https://github.com/BohdanMelvic"><i class="fa fa-github"></i></a></li>
+                                        </ul>
+                                    </div>        
+                                    <!-- End Atribute Navigation -->
+
+
+                                    <!-- Start Header Navigation -->
+                                    <div class="navbar-header">
+                                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-footer">
+                                            <i class="fa fa-bars"></i>
+                                        </button>
+                                        <a class="navbar-brand" href="#home"><span class="logoSpan"> <img src="./images/logo.png" class="sunLogo">Weather Forecast</span></a>
+                                    </div>
+                                    <!-- End Header Navigation -->
+
+                                    <!-- navbar menu -->
+                                    <div class="collapse navbar-collapse" id="navbar-footer">
+                                        <ul class="nav navbar-nav navbar-center">
+                                            <li><a href="#screen_area">Get Forecast</a></li>                    
+                                            <li><a href="#reviews">About me</a></li>
+                                        </ul>
+                                    </div><!-- /.navbar-collapse -->
+                                </div>   
+                            </nav>
+                        </div>
+                        <div class="divider"></div>
+                        <div class="col-md-12">
+                            <div class="main_footer text-center p-top-40 p-bottom-30">
+                                <p class="wow fadeInRight" data-wow-duration="1s">
+                                    Made with 
+                                    <i class="fa fa-heart"></i>
+                                    by 
+                                    <a href="https://www.linkedin.com/in/bohdan-melvic/">Bohdan Melnyk.</a> <br>
+                                    All Rights Reserved.
+                                    2019
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+
+        </div>
+
+        <script src="./js/index.js"></script>
+        <script src="./js/vendor/jquery-1.11.2.min.js"></script>
+        <script src="./js/vendor/bootstrap.min.js"></script>
+        <script src="./js/jquery.magnific-popup.js"></script>
+        <script src="./js/jquery.easing.1.3.js"></script>
+        <script src="./js/swiper.min.js"></script>
+        <script src="./js/jquery.collapse.js"></script>
+        <script src="./js/bootsnav.js"></script>
+        <script src="./js/plugins.js"></script>
+        <script src="./js/main.js"></script>
+
+    </body>
+</html>
