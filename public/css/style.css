@@ -1287,6 +1287,11 @@ People Section style
     h3 {
         font-size: 1.3rem;
     }
+
+    .home_text h1 {
+        font-size: 36px;
+        line-height: 2.5rem;
+    }
 }
 
 /*
