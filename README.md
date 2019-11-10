@@ -13,7 +13,7 @@ I used here different technologies such as:
 <br>
 <br>
 
-### ![alt text](https://github.com/BohdanMelvic/WeatherForecast-App/blob/master/public/images/favicon.png "Logo Title Text 1") [WeatherForecastApp](https://melvic-weather-forecast.herokuapp.com/ ) - the link on Heroku.
+### ![WeatherForecastApp](https://github.com/BohdanMelvic/WeatherForecast-App/blob/master/public/images/favicon.png "WeatherForecastApp") [WeatherForecastApp](https://melvic-weather-forecast.herokuapp.com/ ) - the link on Heroku.
 
 <br>
 <br>
