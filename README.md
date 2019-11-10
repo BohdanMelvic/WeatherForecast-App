@@ -12,7 +12,7 @@ I used here different technologies such as:
 
 
 
-##### [WeatherForecastApp](https://melvic-weather-forecast.herokuapp.com/ ) -  this is the link on Heroku.
+## [WeatherForecastApp](https://melvic-weather-forecast.herokuapp.com/ ) -  this is the link on Heroku.
 
 ### To run the project in local:
 ##### Clone the project via Git Bash: 
