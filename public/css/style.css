@@ -1189,6 +1189,23 @@ Screen01 Section style
     z-index: 0
 }
 
+.weatherForm {
+    display: flex;
+}
+.locationInput, #searchBtn, #sendLocation {
+    margin: 0 5px;
+}
+
+@media(max-width: 520px) {
+    .weatherForm {
+        flex-direction: column;
+    }
+
+    .locationInput, #searchBtn, #sendLocation {
+        margin: 5px 0;
+    }
+}
+
 #massage1 {
     font-weight: 700;
     color: #cf0000;
@@ -1207,6 +1224,13 @@ Screen01 Section style
     padding: 8px 16px;
     border: none;
     outline:none;
+}
+
+@media(max-width: 1190px) and (min-width: 990px) {
+    .btn-info, .btn-success {
+        padding: 3px 6px;
+        font-size: 14px;
+    }
 }
 
 /*
@@ -1252,6 +1276,16 @@ People Section style
 @media(max-width: 1000px) {
     #myPhotoDiv {
         text-align: center;
+    }
+}
+
+@media(max-width: 520px) {
+    .myPhoto {
+        height: 300px;
+    }
+
+    h3 {
+        font-size: 1.3rem;
     }
 }
 
