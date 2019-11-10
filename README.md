@@ -11,7 +11,6 @@ I used here different technologies such as:
 - different useful npm packeges
 
 <br>
-<br>
 
 ### ![WeatherForecastApp](https://github.com/BohdanMelvic/WeatherForecast-App/blob/master/public/images/favicon.png "WeatherForecastApp") [WeatherForecastApp](https://melvic-weather-forecast.herokuapp.com/ ) - the link on Heroku.
 
