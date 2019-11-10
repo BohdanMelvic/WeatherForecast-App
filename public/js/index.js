@@ -3,6 +3,7 @@ const weatherForm = document.querySelector('.weatherForm');
 const massage1 = document.querySelector('#massage1');
 const massage2 = document.querySelector('#massage2');
 const sendLocationButton = document.querySelector('#sendLocation');
+const getForecast = document.querySelectorAll('.getForecast');
 
 
 weatherForm.addEventListener('submit', (e) => {
@@ -48,4 +49,10 @@ sendLocationButton.addEventListener('click', () => {
     });
 
     });
+});
+
+getForecast.forEach( (i) => { i.addEventListener('click', function (e) {
+    e.preventDefault();
+    document.querySelector('.locationInput').focus();
+  });
 });
