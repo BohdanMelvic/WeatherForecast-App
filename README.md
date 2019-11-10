@@ -12,10 +12,10 @@ I used here different technologies such as:
 
 
 
-[WeatherForecastApp](https://melvic-weather-forecast.herokuapp.com/ ) -  this is the link on Heroku.
+##### [WeatherForecastApp](https://melvic-weather-forecast.herokuapp.com/ ) -  this is the link on Heroku.
 
 ### To run the project in local:
-##### Clone the project: 
+##### Clone the project via Git Bash: 
 ```
 git clone git@github.com:BohdanMelvic/WeatherForecast-App.git
 ```
@@ -36,6 +36,5 @@ npm run dev
 ```
 
 ##### Open your browser at http://localhost:3000/
+<br>
 
-<br>
-<br>
