@@ -20,7 +20,7 @@ I used here different technologies such as:
 ### To run the project in local:
 ##### Clone the project via Git Bash: 
 ```
-git clone git@github.com:BohdanMelvic/WeatherForecast-App.git
+git clone https://github.com/BohdanMelvic/WeatherForecast-App.git
 ```
 
 ##### Open it:
