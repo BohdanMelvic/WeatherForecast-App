@@ -10,9 +10,13 @@ I used here different technologies such as:
 - Mapbox API;
 - different useful npm packeges
 
-
+<br>
+<br>
 
 ### ![alt text](https://github.com/BohdanMelvic/WeatherForecast-App/blob/master/public/images/favicon.png "Logo Title Text 1") [WeatherForecastApp](https://melvic-weather-forecast.herokuapp.com/ ) - the link on Heroku.
+
+<br>
+<br>
 
 ### To run the project in local:
 ##### Clone the project via Git Bash: 
